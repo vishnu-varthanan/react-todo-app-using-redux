@@ -20,10 +20,10 @@ function App() {
       <div className='todo-list-container'>
        <h1>To-Do List</h1>  
         <form >
-          <input type="text" value={todo} onChange={(e)=>setTodo(e.target.value)} placeholder='Add you todo...'/>
+          <input type="text" value={todo} onChange={(e)=>setTodo(e.target.value)} placeholder='Add your todo...'/>
           <button type="submit" onClick={handleSubmit}>Add+</button>
         </form>
-          <input type="text" value={searchString} onChange={(e)=>setSearchString(e.target.value)} placeholder='Search you todo...' className='search-input'/>
+          <input type="text" value={searchString} onChange={(e)=>setSearchString(e.target.value)} placeholder='Search your todo...' className='search-input'/>
         <div className='lists-container'>
        
           {
